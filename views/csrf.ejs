@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSRF test</title>
+  </head>
+  <body>
+    <form method="POST" action="">
+      <input type="email" name="email" placeholder="E-mail"/>
+      <input type="password" name="password" placeholder="Mot de passe"/>
+      <input type="hidden" name="token" value="<%= token %>"/>
+      <button>Go !</button>
+    </form>
+  </body>
+</html>

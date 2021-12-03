@@ -1,0 +1,6 @@
+Launch with "npm run dev"
+Application is then available on localhost:8080
+Routes :
+  - / shows a basic HTML page
+  - GET /csrf shows CSRF example
+  - POST /csrf redirects on / on success, sends 403 Forbidden otherwise
